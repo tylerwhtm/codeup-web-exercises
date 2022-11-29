@@ -21,21 +21,18 @@
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
+function analyzeColor(color){
+    /*console.log("Whats your favorite color")*/
+    if (color === "blue") {
+        return"blue is the color of the sky"
+    } else if (color === "red") {
+        return"Strawberries are red"
+    } else {
+        return" I dont know anything about " + color
+    }}
 
-function analyzeColor (color) {
-    if (color === "red")
-        return ("Strawberries are red")
-
-    if (color === "blue")
-        return "blue is the color of the sky"
-
-    else ("color === cyan")
-        return "I don't know anything about cyan"
-}
-
-
-
-
+let result = analyzeColor("blue")
+    console.log(result)
 
 // Don't change the next two lines!
 // These lines create two variables for you:
@@ -50,10 +47,32 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * You should see a different message every time you refresh the page
  */
 
+console.log(analyzeColor(randomColor));
+
+
+
+
+
 /**
  * TODO:
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
+
+/*function analyzeColor(color){
+    var color = prompt("whats your favorite color")
+    switch(color) {
+        case "blue":
+            alert("blue is the color of the sky");
+            break;
+        case "red":
+            alert("strawberry's are red");
+            break;
+        default:
+            alert(" I dont know anything about " + color)
+            break;
+    }
+}*/
+
 
 /**
  * TODO:
@@ -84,6 +103,26 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * return value.
  */
 
+function calculateTotal(luckyNumber, totalAmount){
+    var totalAmount = 100;
+    if (luckyNumber === 0){
+        return (totalAmount)
+    } if (luckyNumber === 1){
+        return (100 - totalAmount * .15)
+    } if (luckyNumber === 2){
+        return (100 - totalAmount * .25)
+    } if (luckyNumber === 3){
+        return (100 - totalAmount * .35)
+    } if (luckyNumber === 4){
+        return (100 - totalAmount * .50)
+    } if (luckyNumber === 5){
+        return(totalAmount * "")
+    }
+}
+
+let luckyNumbers = calculateTotal(1)
+console.log(luckyNumbers)
+
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 5.
@@ -92,8 +131,17 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * and alerts to display to the user what their lucky number was, what their
  * price before the discount was, and what their price after the discount is.
  */
-// Generate a random number between 0 and 6
-// var luckyNumber = Math.floor(Math.random() * 6);
+ // Generate a random number between 0 and 6
+ var luckyNumber = Math.floor(Math.random() * 6);
+
+ console.log(calculateTotal(luckyNumber))
+prompt("what was your total bill");
+alert(" You have received lucky number " + luckyNumber)
+alert(( luckyNumbers = calculateTotal(luckyNumber)) + " is your total after discount")
+
+
+
+
 
 /**
  * TODO:
@@ -113,3 +161,17 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
+
+var number;
+    if (confirm ("Would you like to enter a number") === true) {
+        prompt ("what is your number?");
+        alert("is the number even or odd");
+        alert("what is the number plus 100");
+        alert("is the number a negative or positive");
+    } else  {
+        alert ( "that's the incorrect option");
+    }
+
+
+
+
