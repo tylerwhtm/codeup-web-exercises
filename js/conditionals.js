@@ -21,8 +21,8 @@
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
-function analyzeColor(color){
-    /*console.log("Whats your favorite color")*/
+/*function analyzeColor(color){
+    /!*console.log("Whats your favorite color")*!/
     if (color === "blue") {
         return"blue is the color of the sky"
     } else if (color === "red") {
@@ -32,7 +32,7 @@ function analyzeColor(color){
     }}
 
 let result = analyzeColor("blue")
-    console.log(result)
+    console.log(result)*/
 
 // Don't change the next two lines!
 // These lines create two variables for you:
@@ -58,7 +58,7 @@ console.log(analyzeColor(randomColor));
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
 
-/*function analyzeColor(color){
+function analyzeColor(color){
     var color = prompt("whats your favorite color")
     switch(color) {
         case "blue":
@@ -71,7 +71,7 @@ console.log(analyzeColor(randomColor));
             alert(" I dont know anything about " + color)
             break;
     }
-}*/
+}
 
 
 /**
