@@ -1,10 +1,20 @@
-/*
-multi
-line
-comment
-*/
-
-h1 {
-    color: purple; /* single line comment */
+h1{
+    text-align:center;
+    color: #40110D;
     text-decoration: underline;
 }
+
+body{
+    background-color: #7693A6;
+    background-image:;
+    background-size:;
+
+}
+
+ul{list-style: lower-alpha;
+}
+
+h1{
+    font-family: monospace;
+}
+
