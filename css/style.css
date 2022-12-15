@@ -6,15 +6,31 @@ h1{
 
 body{
     background-color: #7693A6;
-    background-image:;
-    background-size:;
-
+    background-image: url("https://ibb.co/ZGFckxk");
 }
 
 ul{list-style: lower-alpha;
 }
 
-h1{
-    font-family: monospace;
+html{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+table{
+    padding: 5px;
+    font-size: larger;
+}
+td{
+    padding: 10px 0;
+    font-size: xx-large;
+}
+tr{
+    padding:15px;
+    font-size: xx-small;
+}
+a{
+    border: 1px solid;
+    border-radius: 25%;
+    color: #1e1996;
+
 }
 
