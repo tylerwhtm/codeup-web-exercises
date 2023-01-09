@@ -45,12 +45,26 @@
         <img src = "images/pizza.jpeg">
     <h2>build your own pizza! </h2>
         </div>
-    <button type="button" class="btn btn-primary" data-bs-toggle="tab"><span class="badge bg-secondary">1</span> Size and Crust
-    </button>
-    <button type="button" class="btn" data-bs-toggle="tab"><span class="badge bg-secondary">2</span> Cheese and Slice
-    </button>
-    <button type="button" class="btn" data-bs-toggle="tab"><span class="badge bg-secondary">3</span> Toppings
-    </button>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab1" href="#"><span class="badge bg-secondary">1</span>Size and Crust</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab2">cheese and Slice</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab3">Toppings</a>
+        </li>
+    </ul>
+   <div class="tab-content" id="myTabContent">
+       <div class="tab-pane fade show active" id="tab1">
+
+       </div>
+       <div class="tab-content" id="myTabContent">
+           <div class="tab-pane fade show active" id="tab2">
+
+
+   </div>
     <div class="card" style="width: 50rem;">
         <div class="card-body">
             <a href="#" class="btn btn-primary">Size and Crust</a>
