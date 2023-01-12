@@ -24,6 +24,20 @@ for (let i = 1; i <= 9; i++) {
    console.log(i, y)
  }
 
+var fruits = ['apple', 'oranges', 'bananas'];
+
+for (var i = 0; i < fruits.length; i++ ) {
+    console.log("i have some " + fruits[i]);
+}
+
+let p = 0;
+
+while (p < 10) {
+    console.log(p);
+    p++;
+}
+
+
 
 
 
